@@ -4,7 +4,8 @@ from lxml import etree
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) "
-                  "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36"
+                  "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36",
+    "connection": "closed"
 }
 
 
@@ -39,7 +40,7 @@ def download_resume(index_url):
 
 
 if __name__ == '__main__':
-    for page_num in range(5, 51):
+    for page_num in range(5, 10):
         if page_num == 1:
             url = "http://sc.chinaz.com/jianli/free.html"
         else:

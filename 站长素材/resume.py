@@ -40,7 +40,7 @@ def download_resume(index_url):
 
 
 if __name__ == '__main__':
-    for page_num in range(5, 10):
+    for page_num in range(1, 10):
         if page_num == 1:
             url = "http://sc.chinaz.com/jianli/free.html"
         else:

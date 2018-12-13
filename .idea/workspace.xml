@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="194ab2c0-2748-4313-bc59-0949ad8dc5e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/li_video/video_spider2.py" beforeDir="false" afterPath="$PROJECT_DIR$/li_video/video_spider2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/站长素材/resume.py" beforeDir="false" afterPath="$PROJECT_DIR$/站长素材/resume.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,14 +14,14 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/SpiderProject$douban_login__1_.coverage" NAME="douban_login  Coverage Results" MODIFIED="1544523716135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doubanLogin" />
-    <SUITE FILE_PATH="coverage/SpiderProject$resume.coverage" NAME="resume Coverage Results" MODIFIED="1544525454221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/站长素材" />
+    <SUITE FILE_PATH="coverage/SpiderProject$resume.coverage" NAME="resume Coverage Results" MODIFIED="1544666044227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/站长素材" />
     <SUITE FILE_PATH="coverage/SpiderProject$SpiderProject.coverage" NAME="SpiderProject Coverage Results" MODIFIED="1544413018542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/SpiderProject$video_selenium.coverage" NAME="video_selenium Coverage Results" MODIFIED="1544616065475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/梨视频" />
     <SUITE FILE_PATH="coverage/SpiderProject$spider.coverage" NAME="spider Coverage Results" MODIFIED="1543796873686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/淘宝" />
     <SUITE FILE_PATH="coverage/SpiderProject$baidu_tran.coverage" NAME="baidu_tran Coverage Results" MODIFIED="1544437221026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/百度翻译" />
     <SUITE FILE_PATH="coverage/SpiderProject$baidu_spider.coverage" NAME="baidu_spider Coverage Results" MODIFIED="1544443737773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/百度贴吧" />
     <SUITE FILE_PATH="coverage/SpiderProject$video_spider.coverage" NAME="video_spider Coverage Results" MODIFIED="1544602432540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/梨视频" />
-    <SUITE FILE_PATH="coverage/SpiderProject$video_spider2.coverage" NAME="video_spider2 Coverage Results" MODIFIED="1544610735877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/梨视频" />
+    <SUITE FILE_PATH="coverage/SpiderProject$video_spider2.coverage" NAME="video_spider2 Coverage Results" MODIFIED="1544666547076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/li_video" />
     <SUITE FILE_PATH="coverage/SpiderProject$async_resume.coverage" NAME="async_resume Coverage Results" MODIFIED="1544510446092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/站长素材" />
     <SUITE FILE_PATH="coverage/SpiderProject$video_spider2__1_.coverage" NAME="video_spider2 (1) Coverage Results" MODIFIED="1544617175530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/li_video" />
     <SUITE FILE_PATH="coverage/SpiderProject$douban_login.coverage" NAME="douban_login Coverage Results" MODIFIED="1544522341998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/豆瓣自动登陆" />
@@ -29,114 +30,113 @@
     <SUITE FILE_PATH="coverage/SpiderProject$global_test.coverage" NAME="global_test Coverage Results" MODIFIED="1544600504095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/SpiderProject$async_demo.coverage" NAME="async_demo Coverage Results" MODIFIED="1544510235759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/SpiderProject$datetime_test.coverage" NAME="datetime_test Coverage Results" MODIFIED="1544599506348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/SpiderProject$excel_test.coverage" NAME="excel_test Coverage Results" MODIFIED="1544689736581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/SpiderProject$test.coverage" NAME="test Coverage Results" MODIFIED="1544498631468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-938405602">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
-          <entry key="project.open.time.0" value="3" />
+          <entry key="project.closed" value="14" />
+          <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="3" />
-          <entry key="project.open.time.6" value="3" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.open.time.6" value="4" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="csv" value="3" />
           <entry key="html" value="5" />
           <entry key="ipynb" value="2" />
           <entry key="jpeg" value="1" />
           <entry key="jpg" value="4" />
-          <entry key="py" value="48" />
+          <entry key="json" value="1" />
+          <entry key="log" value="1" />
+          <entry key="py" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CSV" value="2" />
           <entry key="HTML" value="5" />
           <entry key="IPNB" value="2" />
           <entry key="Image" value="5" />
-          <entry key="Python" value="48" />
+          <entry key="JSON" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="12832" />
+          <entry key="py" value="16407" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="12832" />
+          <entry key="Python" value="16407" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.56594324">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/li_video/video_spider2.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="243">
-                  <caret line="113" column="43" lean-forward="true" selection-start-line="113" selection-start-column="43" selection-end-line="113" selection-end-column="43" />
-                  <folding>
-                    <element signature="e#0#9#0" expanded="true" />
-                    <marker date="1544617058419" expanded="true" signature="1640:1770" ph="..." />
-                    <marker date="1544617058419" expanded="true" signature="1807:1812" ph="..." />
-                    <marker date="1544617058419" expanded="true" signature="2505:2508" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/li_video/video_selenium.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-                  <folding>
-                    <element signature="e#0#11#0" expanded="true" />
-                    <marker date="1544617175516" expanded="true" signature="472:474" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/淘宝/spider.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" selection-start-line="14" selection-end-line="14" />
-                  <folding>
-                    <element signature="e#0#9#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/li_video/video_selenium.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-                  <folding>
-                    <element signature="e#0#11#0" expanded="true" />
-                    <marker date="1544617175516" expanded="true" signature="472:474" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy框架/bossPro/bossPro/spiders/bosses.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="37" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="37" />
+              <folding>
+                <element signature="e#24#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy框架/bossPro/bossPro/items.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <marker date="1544681379975" expanded="true" signature="200:205" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy框架/bossPro/bossPro/pipelines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="70" column="35" lean-forward="true" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
+              <folding>
+                <element signature="e#193#207#0" expanded="true" />
+                <marker date="1544697556752" expanded="true" signature="326:331" ph="..." />
+                <marker date="1544697556752" expanded="true" signature="350:386" ph="..." />
+                <marker date="1544697556752" expanded="true" signature="671:680" ph="..." />
+                <marker date="1544697556752" expanded="true" signature="899:1130" ph="..." />
+                <marker date="1544697556752" expanded="true" signature="1229:1611" ph="..." />
+                <marker date="1544697556752" expanded="true" signature="1640:1645" ph="..." />
+                <marker date="1544697556752" expanded="true" signature="1806:1953" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scrapy框架/bossPro/bossPro/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="74" lean-forward="true" selection-start-line="27" selection-start-column="74" selection-end-line="27" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -149,6 +149,8 @@
     <findStrings>
       <find>gallery</find>
       <find>threadlist_author</find>
+      <find>user</find>
+      <find>MON</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -176,14 +178,19 @@
         <option value="$PROJECT_DIR$/doubanLlogin/douban_login.py" />
         <option value="$PROJECT_DIR$/doubanLogin/douban_login.py" />
         <option value="$PROJECT_DIR$/doubanLogin/YDMHTTP.py" />
-        <option value="$PROJECT_DIR$/站长素材/resume.py" />
         <option value="$PROJECT_DIR$/test/datetime_test.py" />
         <option value="$PROJECT_DIR$/test/global_test.py" />
         <option value="$PROJECT_DIR$/梨视频/video_spider.py" />
         <option value="$PROJECT_DIR$/梨视频/video_selenium.py" />
         <option value="$PROJECT_DIR$/梨视频/video_spider2.py" />
-        <option value="$PROJECT_DIR$/li_video/video_spider2.py" />
         <option value="$PROJECT_DIR$/li_video/video_selenium.py" />
+        <option value="$PROJECT_DIR$/站长素材/resume.py" />
+        <option value="$PROJECT_DIR$/li_video/video_spider2.py" />
+        <option value="$PROJECT_DIR$/scrapy框架/bossPro/bossPro/items.py" />
+        <option value="$PROJECT_DIR$/test/excel_test.py" />
+        <option value="$PROJECT_DIR$/scrapy框架/bossPro/bossPro/spiders/bosses.py" />
+        <option value="$PROJECT_DIR$/scrapy框架/bossPro/bossPro/settings.py" />
+        <option value="$PROJECT_DIR$/scrapy框架/bossPro/bossPro/pipelines.py" />
       </list>
     </option>
   </component>
@@ -193,10 +200,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="214" />
-    <option name="y" value="41" />
-    <option name="width" value="1183" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="139" />
+    <option name="y" value="45" />
+    <option name="width" value="1327" />
     <option name="height" value="769" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -205,7 +212,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,15 +219,11 @@
               <item name="SpiderProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpiderProject" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SpiderProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpiderProject" type="462c0819:PsiDirectoryNode" />
-              <item name="li_video" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -232,11 +234,12 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/梨视频" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scrapy框架/bossPro/bossPro/spiders" />
       <recent name="$PROJECT_DIR$/豆瓣自动登陆" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/梨视频" />
       <recent name="$PROJECT_DIR$/豆瓣自动登陆" />
     </key>
   </component>
@@ -252,26 +255,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.video_spider2 (1)">
-    <configuration name="SpiderProject" type="JupiterNotebook" factoryName="Jupyter Notebook">
-      <module name="SpiderProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="additionalOptions" value="" />
-      <option name="ipnbHost" value="127.0.0.1" />
-      <option name="ipnbPort" value="8888" />
-      <method v="2" />
-    </configuration>
-    <configuration name="global_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.excel_test">
+    <configuration name="excel_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiderProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -284,7 +269,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/global_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/excel_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -293,7 +278,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="video_selenium" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="resume" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiderProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -301,12 +286,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/梨视频" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/站长素材" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/梨视频/video_selenium.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/站长素材/resume.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -315,29 +300,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="video_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SpiderProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/梨视频" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/梨视频/video_spider.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="video_spider2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="video_spider2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiderProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -359,43 +322,16 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="video_spider2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SpiderProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/梨视频" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/梨视频/video_spider2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Jupyter Notebook.SpiderProject" />
-      <item itemvalue="Python.video_spider" />
-      <item itemvalue="Python.global_test" />
+      <item itemvalue="Python.resume" />
       <item itemvalue="Python.video_spider2" />
-      <item itemvalue="Python.video_selenium" />
-      <item itemvalue="Python.video_spider2 (1)" />
+      <item itemvalue="Python.excel_test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.video_spider2 (1)" />
-        <item itemvalue="Python.video_selenium" />
+        <item itemvalue="Python.excel_test" />
         <item itemvalue="Python.video_spider2" />
-        <item itemvalue="Python.video_spider" />
-        <item itemvalue="Python.global_test" />
+        <item itemvalue="Python.resume" />
       </list>
     </recent_temporary>
   </component>
@@ -413,14 +349,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="139" y="45" width="1327" height="769" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14306152" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19066148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3283767" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.58859974" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32721713" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39908257" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47247708" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -429,7 +365,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.39908257" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.123853214" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -471,24 +407,12 @@
     <entry file="file://$PROJECT_DIR$/百度贴吧/c语言50.html" />
     <entry file="file://$PROJECT_DIR$/百度贴吧/c语言0.html" />
     <entry file="file://$PROJECT_DIR$/百度贴吧/c语言450.html" />
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-1252464536/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5115">
-          <caret line="341" column="4" selection-start-line="341" selection-start-column="4" selection-end-line="341" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-1252464536/builtins.py" />
     <entry file="file://$PROJECT_DIR$/test/44621A23H141-0.jpg" />
     <entry file="file://$PROJECT_DIR$/test/52291I102I93-0.jpg" />
     <entry file="file://$PROJECT_DIR$/test/65571H6162I3-0.jpg" />
     <entry file="file://$PROJECT_DIR$/test/79711IT35630-0.jpg" />
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-1252464536/lxml/etree/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-1252464536/lxml/etree/__init__.py" />
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/lxml/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -524,17 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/站长素材/resume.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1544525454212" expanded="true" signature="1006:1033" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/threading.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -556,34 +469,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/global_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding>
-            <marker date="1544600504087" expanded="true" signature="11:16" ph="..." />
-            <marker date="1544600504087" expanded="true" signature="49:54" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/li_video/video_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="63" column="32" lean-forward="true" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1544617058430" expanded="true" signature="337:441" ph="..." />
-            <marker date="1544617058430" expanded="true" signature="470:2163" ph="..." />
-            <marker date="1544617058430" expanded="true" signature="1527:2163" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -598,33 +487,139 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/li_video/video_spider2.py">
+    <entry file="file://$PROJECT_DIR$/li_video/ghostdriver.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="113" column="43" lean-forward="true" selection-start-line="113" selection-start-column="43" selection-end-line="113" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1544617058419" expanded="true" signature="1640:1770" ph="..." />
-            <marker date="1544617058419" expanded="true" signature="1807:1812" ph="..." />
-            <marker date="1544617058419" expanded="true" signature="2505:2508" ph="..." />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/li_video/video_selenium.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        <state relative-caret-position="60">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/li_video/video_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="63" column="32" lean-forward="true" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/站长素材/resume.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="44" column="57" lean-forward="true" selection-start-line="44" selection-start-column="57" selection-end-line="44" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/li_video/video_spider2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="109" column="53" lean-forward="true" selection-start-line="109" selection-start-column="53" selection-end-line="109" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy框架/bossPro/bossPro/bosses.json" />
+    <entry file="file://$PROJECT_DIR$/scrapy框架/bossPro/bossPro/bosses.csv">
+      <provider editor-type-id="text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy框架/bossPro/java.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-1206" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/scrapy/crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/twisted/internet/defer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="1385" selection-start-line="1385" selection-end-line="1385" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/excel_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy框架/bossPro/bossPro/spiders/python.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy框架/bossPro/bossPro/spiders/bosses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="37" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1544617175516" expanded="true" signature="472:474" ph="..." />
+            <element signature="e#24#37#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy框架/bossPro/bossPro/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <marker date="1544681379975" expanded="true" signature="200:205" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy框架/bossPro/bossPro/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="70" column="35" lean-forward="true" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
+          <folding>
+            <element signature="e#193#207#0" expanded="true" />
+            <marker date="1544697556752" expanded="true" signature="326:331" ph="..." />
+            <marker date="1544697556752" expanded="true" signature="350:386" ph="..." />
+            <marker date="1544697556752" expanded="true" signature="671:680" ph="..." />
+            <marker date="1544697556752" expanded="true" signature="899:1130" ph="..." />
+            <marker date="1544697556752" expanded="true" signature="1229:1611" ph="..." />
+            <marker date="1544697556752" expanded="true" signature="1640:1645" ph="..." />
+            <marker date="1544697556752" expanded="true" signature="1806:1953" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy框架/bossPro/bossPro/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="74" lean-forward="true" selection-start-line="27" selection-start-column="74" selection-end-line="27" selection-end-column="74" />
         </state>
       </provider>
     </entry>

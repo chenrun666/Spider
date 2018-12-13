@@ -79,7 +79,7 @@ def download_video(video_info_tuple):
     """
     # 判断文件夹是否存在，以时间作为文件名称
     date = datetime.now().date()
-    video_path = f"/Users/chenrun/Public/li_video/{date}/{category}"
+    video_path = f"/Users/chenrun/Public/梨视频/{date}/{category}"
     dir_exists = os.path.exists(video_path)
     if not dir_exists:
         os.makedirs(video_path)
@@ -100,7 +100,7 @@ if __name__ == '__main__':
     category_num: num = 10: 新知； num = 2: 世界； num = 8: 科技; num = 59: 音乐
     """
     num = input("请输入你想下载的类别的数字：")
-    get_data = input("时候获取整个页面数据：(yes/no)")
+    get_data = input("是否获取整个页面数据：(yes/no)")
 
     url = f"https://www.pearvideo.com/category_{num}"
     if get_data.lower() == "no" or get_data.lower() == "n":

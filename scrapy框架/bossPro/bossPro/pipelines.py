@@ -4,6 +4,7 @@
 #
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
+import redis
 import pymysql
 import pymongo
 from scrapy.conf import settings
@@ -75,21 +76,21 @@ class MysqlPipeline(object):
 
 
 # 存储到redis
-# class RedisPipeline(object):
-#     conn = None
-#
-#     def open_spider(self, spider):
-#         self.conn = redis.Redis(host="localhost", port=6379, db=0)
-#
-#     def process_item(self, item, spider):
-#         eg1 = item["company"]
-#         eg2 = item["price"]
-#         dic = {
-#             "title": eg1,
-#             "price": eg2
-#         }
-#         self.conn.lpush("house", dic)
-#         return item
+class RedisPipeline(object):
+    conn = None
+
+    def open_spider(self, spider):
+        self.conn = redis.Redis(host="localhost", port=6379, db=0)
+
+    def process_item(self, item, spider):
+        eg1 = item["company"]
+        eg2 = item["price"]
+        dic = {
+            "title": eg1,
+            "price": eg2
+        }
+        self.conn.lpush("house", dic)
+        return item
 
 
 # 存储到mongodb

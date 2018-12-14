@@ -4,6 +4,7 @@
 #
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
+import pymysql
 import pymongo
 from scrapy.conf import settings
 
@@ -45,6 +46,53 @@ class ExcelPipeline(object):
         self.book.save("./work.xls")
 
 
+# 存储mysql实例
+class MysqlPipeline(object):
+    conn = None
+    cursor = None
+
+    def open_spider(self, spider):
+        self.conn = pymysql.Connect(host='127.0.0.1', port=3306, user='root', password='root', db='spider')
+
+    def process_item(self, item, spider):
+        # item赋值操作
+        eg1 = item["company"]
+        eg2 = item["company"]
+        sql = 'insert into table value ("%s", "%s")' % (eg1, eg2)
+
+        self.cursor = self.conn.cursor()
+        try:
+            self.cursor.execute(sql)
+            self.conn.commit()
+        except Exception as e:
+            print(e)
+            self.conn.rollback()
+        return item
+
+    def clse_spider(self, spider):
+        self.cursor.close()
+        self.conn.close()
+
+
+# 存储到redis
+# class RedisPipeline(object):
+#     conn = None
+#
+#     def open_spider(self, spider):
+#         self.conn = redis.Redis(host="localhost", port=6379, db=0)
+#
+#     def process_item(self, item, spider):
+#         eg1 = item["company"]
+#         eg2 = item["price"]
+#         dic = {
+#             "title": eg1,
+#             "price": eg2
+#         }
+#         self.conn.lpush("house", dic)
+#         return item
+
+
+# 存储到mongodb
 class MongoPipeline(object):
     def __init__(self):
         host = settings["MONGO_URI"]

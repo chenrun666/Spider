@@ -17,5 +17,6 @@ class BossproItem(scrapy.Item):
     workPlace = scrapy.Field()
     experience = scrapy.Field()
     education = scrapy.Field()
+    jobDescription = scrapy.Field()
 
 

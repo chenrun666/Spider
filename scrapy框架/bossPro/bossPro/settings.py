@@ -68,7 +68,7 @@ ITEM_PIPELINES = {
 
     'bossPro.pipelines.PositionPipeline': 301,
     'bossPro.pipelines.ExcelPipeline': 302,
-    'bossPro.pipelines.MongoPipeline': 305,
+    # 'bossPro.pipelines.MongoPipeline': 305,
 
 }
 MONGO_URI = "localhost"

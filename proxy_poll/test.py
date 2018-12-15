@@ -82,5 +82,7 @@ if __name__ == '__main__':
     # 按照索引取值，并且前包后包
     # a = db.zrevrange("proxies", 0, 2)
     # 按照分数取值
-    a = db.zrangebyscore("proxies", 91, 100)
-    print(a)
+    # a = db.zrangebyscore("proxies", 91, 100)
+    # db.zadd("proxies", {"103.194.233.45:18186": 9})
+    db.zincrby("proxies", -1, "103.194.233.45:18186")
+

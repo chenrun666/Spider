@@ -75,5 +75,12 @@ def daili66(url):
 
 
 if __name__ == '__main__':
-    url = "http://www.66ip.cn/"
-    daili66(url)
+    import redis
+
+    db = redis.Redis(host="127.0.0.1", port=6379, decode_responses=True)
+    # db.zadd("proxies", {"128.09.90.111": 80})
+    # 按照索引取值，并且前包后包
+    # a = db.zrevrange("proxies", 0, 2)
+    # 按照分数取值
+    a = db.zrangebyscore("proxies", 91, 100)
+    print(a)

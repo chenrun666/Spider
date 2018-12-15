@@ -43,7 +43,7 @@ class Crawler(object, metaclass=ProxyMetaclass):
             "Accept-Encoding": "gzip, deflate",
             "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
             "Cache-Control": "no-cache",
-            "Cookie": "yd_cookie=70e5c339-7e77-4681687dcc5a696de1663dcb5f30079cee96; Hm_lvt_1761fabf3c988e7f04bec51acd4073f4=1544782139; _ydclearance=a1594a933497122226c2346b-d879-448f-b3d0-1ed12d85c4d6-1544799914; Hm_lpvt_1761fabf3c988e7f04bec51acd4073f4=1544792716",
+            "Cookie": DAILI66_COOKIE,
             "Host": "www.66ip.cn",
             "Pragma": "no-cache",
             "Referer": "http://www.66ip.cn/",

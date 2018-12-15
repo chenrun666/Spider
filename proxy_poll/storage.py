@@ -1,19 +1,14 @@
 import redis
 
 from random import choice
+
 from proxy_poll.settings import *
 from proxy_poll.error import PoolEmptyError
 
 
 class RedisClient(object):
-    def __int__(self, host=REDIS_HOST, port=REDIS_PORT):
-        """
-        初始化
-        :param host: Redis 地址
-        :param port: Redis 端口
-        :return:
-        """
-        self.db = redis.StrictRedis(host=host, port=port, decode_responses=True)
+    def __init__(self, host=REDIS_HOST, port=REDIS_PORT):
+        self.db = redis.Redis(host=host, port=port, decode_responses=True)
 
     def add(self, proxy, score=INITIAL_SORCE):
         """
@@ -24,7 +19,7 @@ class RedisClient(object):
         """
         # 有序集合
         if not self.db.zscore(REDIS_KEY, proxy):
-            return self.db.zadd(REDIS_KEY, score, proxy)
+            return self.db.zadd(REDIS_KEY, {proxy: score})
 
     def random(self):
         """
@@ -82,3 +77,18 @@ class RedisClient(object):
         :return: 全部代理列表
         """
         return self.db.zrangebyscore(REDIS_KEY, MIN_SORCE, MAX_SCORE)
+
+    def batch(self, start, stop):
+        """
+        批量获取
+        :param start: 开始索引
+        :param stop: 结束索引
+        :return: 代理列表
+        """
+        return self.db.zrevrange(REDIS_KEY, start, stop - 1)
+
+
+if __name__ == '__main__':
+    conn = RedisClient()
+    result = conn.batch(0, 2)
+    print(result)

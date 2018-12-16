@@ -29,7 +29,7 @@ class Tester(object):
                         print("代理可用", proxy)
                     else:
                         self.redis.decrease(proxy)
-            except (aiohttp.ClientError, aiohttp.ClientConnectorError, TimeoutError, AttributeError):
+            except (aiohttp.ClientError, aiohttp.ClientConnectorError, asyncio.TimeoutError, AttributeError):
                 self.redis.decrease(proxy)
                 print("代理请求失败", proxy)
 

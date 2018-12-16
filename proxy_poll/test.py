@@ -5,6 +5,8 @@ from pyquery import PyQuery as pq
 
 from proxy_poll.settings import *
 
+from selenium import webdriver
+
 headers = {
     "User-Agent": USER_AGENT
 }
@@ -73,16 +75,27 @@ def daili66(url):
         print("缺少cookie")
 
 
+def get_page_info(url):
+    browser = webdriver.Chrome()
+    browser.get(url)
+    html = browser.page_source
+    print(html)
+
+
 
 if __name__ == '__main__':
-    import redis
+    url = "http://www.66ip.cn/"
+    get_page_info(url)
 
-    db = redis.Redis(host="127.0.0.1", port=6379, decode_responses=True)
+
+    # import redis
+
+    # db = redis.Redis(host="127.0.0.1", port=6379, decode_responses=True)
     # db.zadd("proxies", {"128.09.90.111": 80})
     # 按照索引取值，并且前包后包
     # a = db.zrevrange("proxies", 0, 2)
     # 按照分数取值
     # a = db.zrangebyscore("proxies", 91, 100)
     # db.zadd("proxies", {"103.194.233.45:18186": 9})
-    db.zincrby("proxies", -1, "103.194.233.45:18186")
+    # db.zincrby("proxies", -1, "103.194.233.45:18186")
 

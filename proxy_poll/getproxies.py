@@ -2,6 +2,7 @@ import re
 import requests
 
 from lxml import etree
+from selenium import webdriver
 from pyquery import PyQuery as pq
 
 from proxy_poll.settings import *
@@ -32,43 +33,33 @@ class Crawler(object, metaclass=ProxyMetaclass):
 
         return proxies
 
-    def crawl_daili66(self, page_count=4):
+    def crawl_daili66(self, page_count=5):
         """
         获取代理66
         :param page_count: 获取的页码
         :return: 代理
         """
-        headers1 = {
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
-            "Accept-Encoding": "gzip, deflate",
-            "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
-            "Cache-Control": "no-cache",
-            "Cookie": DAILI66_COOKIE,
-            "Host": "www.66ip.cn",
-            "Pragma": "no-cache",
-            "Referer": "http://www.66ip.cn/",
-            "Upgrade-Insecure-Requests": "1",
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36",
+        # 这个网站每次都要验证cookie，每次都要更换cookie值有点麻烦，换成selenium获取页面数据
 
-        }
+        # 实例化浏览器对象
+        browser = webdriver.PhantomJS()
         start_url = "http://www.66ip.cn/{}.html"
         urls = [start_url.format(pageNum) for pageNum in range(1, page_count + 1)]
         for url in urls:
-            html = requests.get(url=url, headers=headers1)
+            # html = requests.get(url=url, headers=headers1)
+            browser.get(url)
+            html = browser.page_source
 
-            if html.status_code == 200:
-                print("请求成功")
-                text = html.content.decode("gb2312")
-                pattern = re.compile(r"<td>(?P<ip>[\d.]+)</td><td>(?P<port>\d+)</td>")
-                results = re.finditer(pattern, text)
-                for result in results:
-                    ip = result.group("ip")
-                    port = result.group("port")
-                    yield ":".join([ip, port])
-            else:
-                print("缺少cookie")
+            # text = html.content.decode("gb2312")
+            text = html
+            pattern = re.compile(r"<td>(?P<ip>[\d.]+)</td><td>(?P<port>\d+)</td>")
+            results = re.finditer(pattern, text)
+            for result in results:
+                ip = result.group("ip")
+                port = result.group("port")
+                yield ":".join([ip, port])
 
-    def crawl_proxy360(self, page_count=4):
+    def crawl_proxy360(self, page_count=5):
         """
         获取360代理
         :return: 代理
@@ -88,7 +79,7 @@ class Crawler(object, metaclass=ProxyMetaclass):
             else:
                 print("请求失败")
 
-    def crawl_goubanjia(self, page_count=4):
+    def crawl_goubanjia(self, page_count=5):
         """
         获取goubanjia
         :param page_count:

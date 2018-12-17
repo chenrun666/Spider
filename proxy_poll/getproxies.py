@@ -58,6 +58,7 @@ class Crawler(object, metaclass=ProxyMetaclass):
                 ip = result.group("ip")
                 port = result.group("port")
                 yield ":".join([ip, port])
+        browser.close()
 
     def crawl_proxy360(self, page_count=5):
         """

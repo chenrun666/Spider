@@ -4,7 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/scrapy框架/scrapyseleniumtest/scrapyseleniumtest/middlewares.py" line="12" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="194ab2c0-2748-4313-bc59-0949ad8dc5e6" name="Default Changelist" comment="" />
+    <list default="true" id="194ab2c0-2748-4313-bc59-0949ad8dc5e6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +22,7 @@
     <SUITE FILE_PATH="coverage/SpiderProject$getter.coverage" NAME="getter Coverage Results" MODIFIED="1544966379789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/proxy_poll" />
     <SUITE FILE_PATH="coverage/SpiderProject$baidu_spider.coverage" NAME="baidu_spider Coverage Results" MODIFIED="1544443737773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/百度贴吧" />
     <SUITE FILE_PATH="coverage/SpiderProject$video_spider.coverage" NAME="video_spider Coverage Results" MODIFIED="1544602432540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/梨视频" />
-    <SUITE FILE_PATH="coverage/SpiderProject$video_spider2.coverage" NAME="video_spider2 Coverage Results" MODIFIED="1544666547076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/li_video" />
+    <SUITE FILE_PATH="coverage/SpiderProject$video_spider2.coverage" NAME="video_spider2 Coverage Results" MODIFIED="1545055137426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/li_video" />
     <SUITE FILE_PATH="coverage/SpiderProject$async_resume.coverage" NAME="async_resume Coverage Results" MODIFIED="1544510446092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/站长素材" />
     <SUITE FILE_PATH="coverage/SpiderProject$video_spider2__1_.coverage" NAME="video_spider2 (1) Coverage Results" MODIFIED="1544617175530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/li_video" />
     <SUITE FILE_PATH="coverage/SpiderProject$douban_login.coverage" NAME="douban_login Coverage Results" MODIFIED="1544522341998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/豆瓣自动登陆" />
@@ -30,6 +32,7 @@
     <SUITE FILE_PATH="coverage/SpiderProject$test.coverage" NAME="test Coverage Results" MODIFIED="1544965993864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/proxy_poll" />
     <SUITE FILE_PATH="coverage/SpiderProject$resume.coverage" NAME="resume Coverage Results" MODIFIED="1544666044227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/站长素材" />
     <SUITE FILE_PATH="coverage/SpiderProject$video_selenium.coverage" NAME="video_selenium Coverage Results" MODIFIED="1544616065475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/梨视频" />
+    <SUITE FILE_PATH="coverage/SpiderProject$requestdata.coverage" NAME="requestdata Coverage Results" MODIFIED="1545125122199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/footballdata" />
     <SUITE FILE_PATH="coverage/SpiderProject$spider.coverage" NAME="spider Coverage Results" MODIFIED="1543796873686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/淘宝" />
     <SUITE FILE_PATH="coverage/SpiderProject$baidu_tran.coverage" NAME="baidu_tran Coverage Results" MODIFIED="1544437221026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/百度翻译" />
     <SUITE FILE_PATH="coverage/SpiderProject$tester.coverage" NAME="tester Coverage Results" MODIFIED="1544965597258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/proxy_poll" />
@@ -45,14 +48,14 @@
     <session id="-938405602">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="22" />
+          <entry key="project.closed" value="23" />
           <entry key="project.open.time.0" value="7" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="3" />
-          <entry key="project.open.time.6" value="6" />
+          <entry key="project.open.time.6" value="7" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -64,8 +67,8 @@
           <entry key="jpeg" value="1" />
           <entry key="jpg" value="4" />
           <entry key="json" value="1" />
-          <entry key="log" value="3" />
-          <entry key="py" value="148" />
+          <entry key="log" value="4" />
+          <entry key="py" value="152" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -76,29 +79,29 @@
           <entry key="Image" value="5" />
           <entry key="Ini" value="1" />
           <entry key="JSON" value="1" />
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="148" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="152" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="34202" />
+          <entry key="py" value="36427" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="34202" />
+          <entry key="Python" value="36427" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy框架/scrapyseleniumtest/scrapyseleniumtest/spiders/wangyi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+            <state relative-caret-position="165">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -107,10 +110,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/li_video/video_spider2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy框架/day07/redisSpiderPro/redisSpiderPro/spiders/redisSpiderTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/footballdata/requestdata.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="90" column="54" selection-start-line="90" selection-start-column="54" selection-end-line="90" selection-end-column="54" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+                <marker date="1545125122190" expanded="true" signature="465:719" ph="..." />
+                <marker date="1545125122190" expanded="true" signature="902:2871" ph="..." />
+                <marker date="1545125122190" expanded="true" signature="1520:1881" ph="..." />
+                <marker date="1545125122190" expanded="true" signature="1976:1981" ph="..." />
+                <marker date="1545125122190" expanded="true" signature="1976:2440" ph="..." />
+                <marker date="1545125122190" expanded="true" signature="2450:2834" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy框架/scrapyseleniumtest/scrapyseleniumtest/middlewares.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="133" lean-forward="true" selection-start-line="133" selection-end-line="133" />
+            <state relative-caret-position="1815">
+              <caret line="133" column="28" selection-start-line="133" selection-start-column="28" selection-end-line="133" selection-end-column="28" />
               <folding>
                 <element signature="e#169#195#0" expanded="true" />
               </folding>
@@ -133,6 +172,7 @@
       <find>threadlist_author</find>
       <find>user</find>
       <find>MON</find>
+      <find>天津</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -144,7 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/街拍/settings.py" />
         <option value="$PROJECT_DIR$/百度翻译/baidu_tran.py" />
         <option value="$PROJECT_DIR$/街拍/spider.py" />
         <option value="$PROJECT_DIR$/百度贴吧/c语言.html" />
@@ -195,6 +234,7 @@
         <option value="$PROJECT_DIR$/scrapy框架/crawlPro/crawlPro/settings.py" />
         <option value="$PROJECT_DIR$/scrapy框架/scrapyseleniumtest/scrapyseleniumtest/spiders/wangyi.py" />
         <option value="$PROJECT_DIR$/scrapy框架/scrapyseleniumtest/scrapyseleniumtest/middlewares.py" />
+        <option value="$PROJECT_DIR$/footballdata/requestdata.py" />
       </list>
     </option>
   </component>
@@ -205,8 +245,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="198" />
-    <option name="y" value="58" />
+    <option name="x" value="349" />
+    <option name="y" value="87" />
     <option name="width" value="1158" />
     <option name="height" value="803" />
   </component>
@@ -216,7 +256,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -227,54 +266,13 @@
             <path>
               <item name="SpiderProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpiderProject" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy框架" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpiderProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpiderProject" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy框架" type="462c0819:PsiDirectoryNode" />
-              <item name="bossPro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpiderProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpiderProject" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy框架" type="462c0819:PsiDirectoryNode" />
-              <item name="bossPro" type="462c0819:PsiDirectoryNode" />
-              <item name="bossPro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpiderProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpiderProject" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy框架" type="462c0819:PsiDirectoryNode" />
-              <item name="bossPro" type="462c0819:PsiDirectoryNode" />
-              <item name="bossPro" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpiderProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpiderProject" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy框架" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapyseleniumtest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpiderProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpiderProject" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy框架" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapyseleniumtest" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapyseleniumtest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpiderProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpiderProject" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy框架" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapyseleniumtest" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapyseleniumtest" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+              <item name="footballdata" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,6 +284,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scrapy框架" />
       <recent name="$PROJECT_DIR$/scrapy框架/bossPro/bossPro/spiders" />
       <recent name="$PROJECT_DIR$/豆瓣自动登陆" />
     </key>
@@ -306,7 +305,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.chinasuper">
+  <component name="RunManager" selected="Python.requestdata">
     <configuration name="chinasuper" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiderProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -321,28 +320,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy框架/footballdata/footballdata/spiders/chinasuper.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="getter" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SpiderProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/proxy_poll" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/proxy_poll/getter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -373,7 +350,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="requestdata" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiderProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -381,12 +358,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/proxy_poll" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/footballdata" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/proxy_poll/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/footballdata/requestdata.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -417,20 +394,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="video_spider2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SpiderProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/li_video" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/li_video/video_spider2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.getter" />
       <item itemvalue="Python.time_test" />
       <item itemvalue="Python.re_test" />
       <item itemvalue="Python.chinasuper" />
+      <item itemvalue="Python.video_spider2" />
+      <item itemvalue="Python.requestdata" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.requestdata" />
+        <item itemvalue="Python.video_spider2" />
         <item itemvalue="Python.chinasuper" />
         <item itemvalue="Python.re_test" />
         <item itemvalue="Python.time_test" />
-        <item itemvalue="Python.getter" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -448,15 +447,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="428" y="54" width="1158" height="803" extended-state="0" />
+    <frame x="349" y="87" width="1158" height="803" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2643369" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32795697" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32721713" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37012988" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4026163" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47247708" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -465,7 +464,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50089604" side_tool="true" weight="0.37209302" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49910393" visible="true" weight="0.2645349" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49910393" weight="0.3008721" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -492,34 +491,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/scrapy/crawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/twisted/internet/defer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="1385" selection-start-line="1385" selection-end-line="1385" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/excel_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scrapy框架/bossPro/bossPro/spiders/python.csv" />
     <entry file="file://$PROJECT_DIR$/proxy_poll/utils/get_page.py" />
     <entry file="file://$PROJECT_DIR$/淘宝/spider.py">
@@ -579,11 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="733">
           <caret line="49" column="28" lean-forward="true" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1545012547244" expanded="true" signature="223:228" ph="..." />
-            <marker date="1545012547244" expanded="true" signature="608:613" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -598,10 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="563">
           <caret line="52" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1544965332314" expanded="true" signature="187:192" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -609,11 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1544840818348" expanded="true" signature="148:149" ph="..." />
-            <marker date="1544840818348" expanded="true" signature="148:154" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -621,22 +578,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-16">
           <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1544965993851" expanded="true" signature="254:259" ph="..." />
-            <marker date="1544965993851" expanded="true" signature="727:1111" ph="..." />
-            <marker date="1544965993851" expanded="true" signature="2390:2495" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy框架/scrapyseleniumtest/scrapyseleniumtest/spiders/taobao.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy框架/scrapyseleniumtest/scrapyseleniumtest/spiders/taobao.py" />
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/selenium/webdriver/phantomjs/webdriver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -648,45 +593,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="67">
           <caret line="64" column="56" selection-start-line="64" selection-start-column="56" selection-end-line="64" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-            <marker date="1544842776706" expanded="true" signature="205:286" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy框架/scrapyseleniumtest/ghostdriver.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy框架/scrapyseleniumtest/baidu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy框架/scrapyseleniumtest/ghostdriver.log" />
+    <entry file="file://$PROJECT_DIR$/scrapy框架/scrapyseleniumtest/baidu.html" />
     <entry file="file://$PROJECT_DIR$/scrapy框架/bossPro/bossPro/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-          <folding>
-            <element signature="e#241#1903#0" />
-            <element signature="e#1953#3596#0" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy框架/scrapyseleniumtest/scrapyseleniumtest/baidu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy框架/scrapyseleniumtest/scrapyseleniumtest/baidu.html" />
     <entry file="file://$PROJECT_DIR$/li_video/video_selenium.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -716,11 +635,6 @@
         <state relative-caret-position="188">
           <caret line="17" selection-start-line="17" selection-end-line="18" selection-end-column="49" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/li_video/video_spider2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/time_test.py">
@@ -765,9 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-          <folding>
-            <marker date="1545047123832" expanded="true" signature="205:210" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -775,14 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
           <caret line="123" column="27" selection-start-line="123" selection-start-column="27" selection-end-line="123" selection-end-column="27" />
-          <folding>
-            <element signature="e#168#204#0" expanded="true" />
-            <element signature="e#246#1908#0" />
-            <element signature="e#1963#3606#0" />
-            <marker date="1545047417569" expanded="true" signature="3709:3714" ph="..." />
-            <marker date="1545047417569" expanded="true" signature="3828:3834" ph="..." />
-            <marker date="1545047417569" expanded="true" signature="4368:4369" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -790,11 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <element signature="e#24#33#0" expanded="true" />
-            <marker date="1545048166324" expanded="true" signature="343:426" ph="..." />
-            <marker date="1545048166324" expanded="true" signature="1008:1017" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -808,9 +706,7 @@
     <entry file="file://$PROJECT_DIR$/scrapy框架/crawlPro/scrapy.cfg">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy框架/crawlTest.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy框架/crawlTest.py" />
     <entry file="file://$PROJECT_DIR$/scrapy框架/crawlPro/crawlPro/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="37">
@@ -836,35 +732,66 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
           <caret line="55" column="47" lean-forward="true" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy框架/scrapyseleniumtest/text.html" />
+    <entry file="file://$PROJECT_DIR$/scrapy框架/scrapyseleniumtest/scrapyseleniumtest/spiders/wangyi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy框架/scrapyseleniumtest/text.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="1399" column="69" lean-forward="true" selection-start-line="1399" selection-start-column="69" selection-end-line="1399" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scrapy框架/scrapyseleniumtest/scrapyseleniumtest/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="133" lean-forward="true" selection-start-line="133" selection-end-line="133" />
+        <state relative-caret-position="1815">
+          <caret line="133" column="28" selection-start-line="133" selection-start-column="28" selection-end-line="133" selection-end-column="28" />
           <folding>
             <element signature="e#169#195#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy框架/scrapyseleniumtest/scrapyseleniumtest/spiders/wangyi.py">
+    <entry file="file://$PROJECT_DIR$/li_video/video_spider2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+        <state relative-caret-position="465">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy框架/day07/redisSpiderPro/redisSpiderPro/spiders/redisSpiderTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footballdata/ghostdriver.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-1252464536/array.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="151" column="8" selection-start-line="151" selection-start-column="8" selection-end-line="151" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footballdata/requestdata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="90" column="54" selection-start-line="90" selection-start-column="54" selection-end-line="90" selection-end-column="54" />
           <folding>
-            <element signature="e#24#37#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1545125122190" expanded="true" signature="465:719" ph="..." />
+            <marker date="1545125122190" expanded="true" signature="902:2871" ph="..." />
+            <marker date="1545125122190" expanded="true" signature="1520:1881" ph="..." />
+            <marker date="1545125122190" expanded="true" signature="1976:1981" ph="..." />
+            <marker date="1545125122190" expanded="true" signature="1976:2440" ph="..." />
+            <marker date="1545125122190" expanded="true" signature="2450:2834" ph="..." />
           </folding>
         </state>
       </provider>

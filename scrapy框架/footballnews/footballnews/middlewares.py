@@ -4,12 +4,11 @@
 #
 # See documentation in:
 # https://doc.scrapy.org/en/latest/topics/spider-middleware.html
-from scrapy.http import HtmlResponse
-from selenium import webdriver
+
 from scrapy import signals
 
 
-class FootballdataSpiderMiddleware(object):
+class FootballnewsSpiderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
     # scrapy acts as if the spider middleware does not modify the
     # passed objects.
@@ -57,7 +56,7 @@ class FootballdataSpiderMiddleware(object):
         spider.logger.info('Spider opened: %s' % spider.name)
 
 
-class FootballdataDownloaderMiddleware(object):
+class FootballnewsDownloaderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
     # scrapy acts as if the downloader middleware does not modify the
     # passed objects.
@@ -102,23 +101,3 @@ class FootballdataDownloaderMiddleware(object):
 
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
-
-
-class SeleniumMiddleware(object):
-    def __init__(self):
-        self.browser = webdriver.Chrome()
-
-    def __del__(self):
-        self.browser.close()
-
-    def process_response(self, request, response, spider):
-        if request.meta.get("useselenium", None):
-            try:
-                self.browser.get(request.url)
-                page_text = self.browser.page_source
-                return HtmlResponse(url=self.browser.current_url, body=page_text, encoding="utf-8", request=request)
-            except Exception as e:
-                print(e)
-                return HtmlResponse(url=self.browser.current_url, status=500, request=request)
-        else:
-            return response

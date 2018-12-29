@@ -2,8 +2,8 @@ import redis
 
 from random import choice
 
-from proxy_poll.settings import *
-from proxy_poll.error import PoolEmptyError
+from ProxyPool.proxy_poll.settings import *
+from ProxyPool.proxy_poll.error import PoolEmptyError
 
 
 class RedisClient(object):

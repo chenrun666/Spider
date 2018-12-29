@@ -1,8 +1,8 @@
 import sys
 
-from proxy_poll.storage import RedisClient
-from proxy_poll.getproxies import Crawler
-from proxy_poll.settings import *
+from ProxyPool.proxy_poll.storage import RedisClient
+from ProxyPool.proxy_poll.getproxies import Crawler
+from ProxyPool.proxy_poll.settings import *
 
 
 class Getter():

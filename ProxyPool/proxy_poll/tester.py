@@ -1,9 +1,9 @@
 import time
 import aiohttp
 import asyncio
-from proxy_poll.storage import RedisClient
+from ProxyPool.proxy_poll.storage import RedisClient
 
-from proxy_poll.settings import VALID_STATUS_CODES, BATCH_TEST_SIZE, TEST_URL
+from ProxyPool.proxy_poll.settings import VALID_STATUS_CODES, BATCH_TEST_SIZE, TEST_URL
 
 
 class Tester(object):

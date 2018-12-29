@@ -3,7 +3,7 @@ import requests
 from lxml import etree
 from pyquery import PyQuery as pq
 
-from proxy_poll.settings import *
+from ProxyPool.proxy_poll.settings import *
 
 from selenium import webdriver
 

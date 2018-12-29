@@ -5,7 +5,7 @@ from lxml import etree
 from selenium import webdriver
 from pyquery import PyQuery as pq
 
-from proxy_poll.settings import *
+from ProxyPool.proxy_poll.settings import *
 
 headers = {
     "User-Agent": USER_AGENT
@@ -46,11 +46,9 @@ class Crawler(object, metaclass=ProxyMetaclass):
         start_url = "http://www.66ip.cn/{}.html"
         urls = [start_url.format(pageNum) for pageNum in range(1, page_count + 1)]
         for url in urls:
-            # html = requests.get(url=url, headers=headers1)
             browser.get(url)
             html = browser.page_source
 
-            # text = html.content.decode("gb2312")
             text = html
             pattern = re.compile(r"<td>(?P<ip>[\d.]+)</td><td>(?P<port>\d+)</td>")
             results = re.finditer(pattern, text)
@@ -71,12 +69,15 @@ class Crawler(object, metaclass=ProxyMetaclass):
             html = requests.get(url, headers=headers)
 
             if html.status_code == 200:
-                tree = etree.HTML(html.content.decode("gb2312"))
-                info = tree.xpath('//*[@id="list"]/table/tbody')[0]
-                for num in range(1, 11):
-                    info_list = info.xpath(f"./tr[{num}]//text()")
-                    ip, port, _, category, _, _, _, _ = [ip for ip in info_list if ip.strip() != '']
-                    yield ":".join([ip, port])
+                try:
+                    tree = etree.HTML(html.content.decode("gb2312"))
+                    info = tree.xpath('//*[@id="list"]/table/tbody')[0]
+                    for num in range(1, 11):
+                        info_list = info.xpath(f"./tr[{num}]//text()")
+                        ip, port, _, category, _, _, _, _ = [ip for ip in info_list if ip.strip() != '']
+                        yield ":".join([ip, port])
+                except Exception as e:
+                    print(e)
             else:
                 print("请求失败")
 

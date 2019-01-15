@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="194ab2c0-2748-4313-bc59-0949ad8dc5e6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/SpiderProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SpiderProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy_poll/error.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy_poll/getproxies.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy_poll/getter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy_poll/ghostdriver.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy_poll/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy_poll/storage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy_poll/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy_poll/tester.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy_poll/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapy框架/bossPro/bossPro/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy框架/bossPro/bossPro/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapy框架/footballnews/footballnews/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy框架/footballnews/footballnews/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapy框架/scrapyseleniumtest/scrapyseleniumtest/spiders/wangyi.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy框架/scrapyseleniumtest/scrapyseleniumtest/spiders/wangyi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/time_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/time_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,103 +21,135 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/SpiderProject$douban_login__1_.coverage" NAME="douban_login  Coverage Results" MODIFIED="1544523716135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doubanLogin" />
-    <SUITE FILE_PATH="coverage/SpiderProject$utils.coverage" NAME="utils Coverage Results" MODIFIED="1544785013155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/proxy_poll" />
     <SUITE FILE_PATH="coverage/SpiderProject$SpiderProject.coverage" NAME="SpiderProject Coverage Results" MODIFIED="1544413018542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/SpiderProject$toPhone.coverage" NAME="toPhone Coverage Results" MODIFIED="1547024529146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_test" />
     <SUITE FILE_PATH="coverage/SpiderProject$storage.coverage" NAME="storage Coverage Results" MODIFIED="1544840095522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/proxy_poll" />
-    <SUITE FILE_PATH="coverage/SpiderProject$time_test.coverage" NAME="time_test Coverage Results" MODIFIED="1545039026338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/SpiderProject$getter.coverage" NAME="getter Coverage Results" MODIFIED="1546065327529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/proxy_poll" />
-    <SUITE FILE_PATH="coverage/SpiderProject$baidu_spider.coverage" NAME="baidu_spider Coverage Results" MODIFIED="1544443737773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/百度贴吧" />
-    <SUITE FILE_PATH="coverage/SpiderProject$video_spider.coverage" NAME="video_spider Coverage Results" MODIFIED="1544602432540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/梨视频" />
-    <SUITE FILE_PATH="coverage/SpiderProject$video_spider2.coverage" NAME="video_spider2 Coverage Results" MODIFIED="1545055137426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/li_video" />
-    <SUITE FILE_PATH="coverage/SpiderProject$async_resume.coverage" NAME="async_resume Coverage Results" MODIFIED="1544510446092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/站长素材" />
+    <SUITE FILE_PATH="coverage/SpiderProject$update_script.coverage" NAME="update_script Coverage Results" MODIFIED="1547014249192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mitmproxy_s" />
     <SUITE FILE_PATH="coverage/SpiderProject$video_spider2__1_.coverage" NAME="video_spider2 (1) Coverage Results" MODIFIED="1544617175530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/li_video" />
-    <SUITE FILE_PATH="coverage/SpiderProject$douban_login.coverage" NAME="douban_login Coverage Results" MODIFIED="1544522341998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/豆瓣自动登陆" />
     <SUITE FILE_PATH="coverage/SpiderProject$spider__1_.coverage" NAME="spider (1) Coverage Results" MODIFIED="1544439988577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/街拍" />
     <SUITE FILE_PATH="coverage/SpiderProject$YDMHTTPDemo3_x.coverage" NAME="YDMHTTPDemo3.x Coverage Results" MODIFIED="1544521011241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫+数据/PythonHTTP调用示例" />
-    <SUITE FILE_PATH="coverage/SpiderProject$api.coverage" NAME="api Coverage Results" MODIFIED="1546065482472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/proxy_poll" />
-    <SUITE FILE_PATH="coverage/SpiderProject$async_demo.coverage" NAME="async_demo Coverage Results" MODIFIED="1544510235759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/SpiderProject$wanplus_spider.coverage" NAME="wanplus_spider Coverage Results" MODIFIED="1545488805116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wanplus" />
-    <SUITE FILE_PATH="coverage/SpiderProject$test.coverage" NAME="test Coverage Results" MODIFIED="1544965993864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/proxy_poll" />
-    <SUITE FILE_PATH="coverage/SpiderProject$resume.coverage" NAME="resume Coverage Results" MODIFIED="1544666044227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/站长素材" />
+    <SUITE FILE_PATH="coverage/SpiderProject$Statistics.coverage" NAME="Statistics Coverage Results" MODIFIED="1547285235800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/english" />
+    <SUITE FILE_PATH="coverage/SpiderProject$call_worker.coverage" NAME="call_worker Coverage Results" MODIFIED="1547017134189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mitmproxy_s" />
+    <SUITE FILE_PATH="coverage/SpiderProject$url_test.coverage" NAME="url_test Coverage Results" MODIFIED="1547023084504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mitmproxy_s" />
+    <SUITE FILE_PATH="coverage/SpiderProject$test.coverage" NAME="test Coverage Results" MODIFIED="1547520104800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SpiderProject$video_selenium.coverage" NAME="video_selenium Coverage Results" MODIFIED="1544616065475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/梨视频" />
+    <SUITE FILE_PATH="coverage/SpiderProject$spider_industry.coverage" NAME="spider_industry Coverage Results" MODIFIED="1547200198850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/industry" />
     <SUITE FILE_PATH="coverage/SpiderProject$requestdata.coverage" NAME="requestdata Coverage Results" MODIFIED="1545287387810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/footballdata" />
+    <SUITE FILE_PATH="coverage/SpiderProject$get_info.coverage" NAME="get_info Coverage Results" MODIFIED="1547264967663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xueqiu" />
     <SUITE FILE_PATH="coverage/SpiderProject$spider.coverage" NAME="spider Coverage Results" MODIFIED="1543796873686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/淘宝" />
     <SUITE FILE_PATH="coverage/SpiderProject$baidu_tran.coverage" NAME="baidu_tran Coverage Results" MODIFIED="1544437221026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/百度翻译" />
     <SUITE FILE_PATH="coverage/SpiderProject$tester.coverage" NAME="tester Coverage Results" MODIFIED="1546065444902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/proxy_poll" />
-    <SUITE FILE_PATH="coverage/SpiderProject$re_test.coverage" NAME="re_test Coverage Results" MODIFIED="1545046498651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/SpiderProject$test_111.coverage" NAME="test_111 Coverage Results" MODIFIED="1546065182471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/SpiderProject$chinasuper.coverage" NAME="chinasuper Coverage Results" MODIFIED="1545047984946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy框架/footballdata/footballdata/spiders" />
     <SUITE FILE_PATH="coverage/SpiderProject$db.coverage" NAME="db Coverage Results" MODIFIED="1544839940793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/proxy_poll" />
-    <SUITE FILE_PATH="coverage/SpiderProject$.coverage" NAME="异步发起请求 Coverage Results" MODIFIED="1545823052547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/异步爬虫" />
     <SUITE FILE_PATH="coverage/SpiderProject$scheduler.coverage" NAME="scheduler Coverage Results" MODIFIED="1546067141573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/proxy_poll" />
-    <SUITE FILE_PATH="coverage/SpiderProject$global_test.coverage" NAME="global_test Coverage Results" MODIFIED="1544600504095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/SpiderProject$getproxies.coverage" NAME="getproxies Coverage Results" MODIFIED="1544785456326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/proxy_poll" />
+    <SUITE FILE_PATH="coverage/SpiderProject$run.coverage" NAME="run Coverage Results" MODIFIED="1546068348316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ProxyPool" />
+    <SUITE FILE_PATH="coverage/SpiderProject$utils.coverage" NAME="utils Coverage Results" MODIFIED="1544785013155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/proxy_poll" />
+    <SUITE FILE_PATH="coverage/SpiderProject$time_test.coverage" NAME="time_test Coverage Results" MODIFIED="1545039026338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/SpiderProject$info.coverage" NAME="info Coverage Results" MODIFIED="1547266900232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jinritoutiao" />
+    <SUITE FILE_PATH="coverage/SpiderProject$set_dup.coverage" NAME="set_dup Coverage Results" MODIFIED="1547533272864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cookie_save" />
+    <SUITE FILE_PATH="coverage/SpiderProject$baidu_spider.coverage" NAME="baidu_spider Coverage Results" MODIFIED="1544443737773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/百度贴吧" />
+    <SUITE FILE_PATH="coverage/SpiderProject$mitm.coverage" NAME="mitm Coverage Results" MODIFIED="1546861581677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mitmproxy_s" />
+    <SUITE FILE_PATH="coverage/SpiderProject$video_spider.coverage" NAME="video_spider Coverage Results" MODIFIED="1544602432540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/梨视频" />
+    <SUITE FILE_PATH="coverage/SpiderProject$video_spider2.coverage" NAME="video_spider2 Coverage Results" MODIFIED="1546685031639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/li_video" />
+    <SUITE FILE_PATH="coverage/SpiderProject$async_resume.coverage" NAME="async_resume Coverage Results" MODIFIED="1544510446092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/站长素材" />
+    <SUITE FILE_PATH="coverage/SpiderProject$douban_login.coverage" NAME="douban_login Coverage Results" MODIFIED="1544522341998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/豆瓣自动登陆" />
+    <SUITE FILE_PATH="coverage/SpiderProject$api.coverage" NAME="api Coverage Results" MODIFIED="1546065482472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/proxy_poll" />
+    <SUITE FILE_PATH="coverage/SpiderProject$async_demo.coverage" NAME="async_demo Coverage Results" MODIFIED="1544510235759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/SpiderProject$wanplus_spider.coverage" NAME="wanplus_spider Coverage Results" MODIFIED="1545488805116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wanplus" />
+    <SUITE FILE_PATH="coverage/SpiderProject$resume.coverage" NAME="resume Coverage Results" MODIFIED="1544666044227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/站长素材" />
+    <SUITE FILE_PATH="coverage/SpiderProject$get_information.coverage" NAME="get_information Coverage Results" MODIFIED="1547259585005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xueqiu" />
+    <SUITE FILE_PATH="coverage/SpiderProject$cookie_test2.coverage" NAME="cookie_test2 Coverage Results" MODIFIED="1547530780414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cookie_save" />
+    <SUITE FILE_PATH="coverage/SpiderProject$re_test.coverage" NAME="re_test Coverage Results" MODIFIED="1545046498651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/SpiderProject$chinasuper.coverage" NAME="chinasuper Coverage Results" MODIFIED="1545047984946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy框架/footballdata/footballdata/spiders" />
+    <SUITE FILE_PATH="coverage/SpiderProject$.coverage" NAME="异步发起请求 Coverage Results" MODIFIED="1545823052547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/异步爬虫" />
+    <SUITE FILE_PATH="coverage/SpiderProject$cookie_test.coverage" NAME="cookie_test Coverage Results" MODIFIED="1547530811686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cookie_save" />
+    <SUITE FILE_PATH="coverage/SpiderProject$global_test.coverage" NAME="global_test Coverage Results" MODIFIED="1544600504095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/SpiderProject$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1547196718266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/industry" />
     <SUITE FILE_PATH="coverage/SpiderProject$datetime_test.coverage" NAME="datetime_test Coverage Results" MODIFIED="1544599506348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/SpiderProject$excel_test.coverage" NAME="excel_test Coverage Results" MODIFIED="1544689736581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/SpiderProject$run.coverage" NAME="run Coverage Results" MODIFIED="1546068348316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ProxyPool" />
+    <SUITE FILE_PATH="coverage/SpiderProject$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1547262229698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xueqiu" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-938405602">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="29" />
-          <entry key="project.open.time.0" value="9" />
-          <entry key="project.open.time.1" value="6" />
+          <entry key="project.closed" value="65" />
+          <entry key="project.open.time.0" value="25" />
+          <entry key="project.open.time.1" value="10" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.5" value="3" />
-          <entry key="project.open.time.6" value="8" />
+          <entry key="project.open.time.4" value="8" />
+          <entry key="project.open.time.5" value="8" />
+          <entry key="project.open.time.6" value="10" />
           <entry key="project.open.time.7" value="3" />
-          <entry key="project.opened" value="30" />
+          <entry key="project.opened" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cfg" value="1" />
+          <entry key="cookie" value="2" />
           <entry key="csv" value="3" />
-          <entry key="html" value="14" />
+          <entry key="html" value="17" />
           <entry key="ipynb" value="2" />
           <entry key="jpeg" value="1" />
           <entry key="jpg" value="4" />
           <entry key="json" value="1" />
-          <entry key="log" value="5" />
-          <entry key="py" value="197" />
+          <entry key="log" value="10" />
+          <entry key="py" value="292" />
+          <entry key="requirements" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSV" value="2" />
-          <entry key="HTML" value="14" />
+          <entry key="HTML" value="17" />
           <entry key="IPNB" value="2" />
           <entry key="Image" value="5" />
           <entry key="Ini" value="1" />
           <entry key="JSON" value="1" />
-          <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="197" />
+          <entry key="Log" value="5" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Python" value="292" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="42420" />
+          <entry key="cookie" value="18" />
+          <entry key="dummy" value="5" />
+          <entry key="log" value="32" />
+          <entry key="py" value="57599" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="42420" />
+          <entry key="Log" value="32" />
+          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="Python" value="57599" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ProxyPool/run.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cookie_save/cookie_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="318">
+              <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
-                <marker date="1546068348307" expanded="true" signature="156:161" ph="..." />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cookie_save/set_dup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -143,6 +172,13 @@
       <find>天津</find>
       <find>TOP</find>
       <find>明星诠释bebe穿搭</find>
+      <find>勤上股份控股股东犯单位行贿罪</find>
+      <find>挥别“黄金时代”！珠宝行业如何面对被动消费升级？</find>
+      <find>光伏行业协会秘书长：去年新增装机容量预计达40GW</find>
+      <find>别人上市涨停ST长油却连续跌停！12万股东疯狂出货？</find>
+      <find>服装界“富士康”股价8年翻60倍 阿迪、耐克背后的中国神秘首富</find>
+      <find>方星海：证监会重视资本市场不活跃等问题 有望进一步放开股指期货</find>
+      <find>xueqiu</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -154,44 +190,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/datetime_test.py" />
-        <option value="$PROJECT_DIR$/test/global_test.py" />
-        <option value="$PROJECT_DIR$/梨视频/video_spider.py" />
-        <option value="$PROJECT_DIR$/梨视频/video_selenium.py" />
-        <option value="$PROJECT_DIR$/梨视频/video_spider2.py" />
-        <option value="$PROJECT_DIR$/li_video/video_selenium.py" />
-        <option value="$PROJECT_DIR$/站长素材/resume.py" />
-        <option value="$PROJECT_DIR$/li_video/video_spider2.py" />
-        <option value="$PROJECT_DIR$/test/excel_test.py" />
-        <option value="$PROJECT_DIR$/scrapy框架/bossPro/bossPro/settings.py" />
-        <option value="$PROJECT_DIR$/scrapy框架/bossPro/bossPro/items.py" />
-        <option value="$PROJECT_DIR$/scrapy框架/bossPro/bossPro/spiders/bosses.py" />
-        <option value="$PROJECT_DIR$/代理的使用/settings.py" />
-        <option value="$PROJECT_DIR$/代理的使用/storage.py" />
-        <option value="$PROJECT_DIR$/scrapy框架/bossPro/bossPro/pipelines.py" />
-        <option value="$PROJECT_DIR$/proxy_poll/utils/get_page.py" />
-        <option value="$PROJECT_DIR$/proxy_poll/error.py" />
-        <option value="$PROJECT_DIR$/proxy_poll/db.py" />
-        <option value="$PROJECT_DIR$/proxy_poll/getter.py" />
-        <option value="$PROJECT_DIR$/proxy_poll/storage.py" />
-        <option value="$PROJECT_DIR$/proxy_poll/tester.py" />
-        <option value="$PROJECT_DIR$/proxy_poll/test.py" />
-        <option value="$PROJECT_DIR$/proxy_poll/utils.py" />
-        <option value="$PROJECT_DIR$/test/time_test.py" />
-        <option value="$PROJECT_DIR$/test/re_test.py" />
-        <option value="$PROJECT_DIR$/scrapy框架/footballdata/footballdata/items.py" />
-        <option value="$PROJECT_DIR$/scrapy框架/footballdata/footballdata/pipelines.py" />
-        <option value="$PROJECT_DIR$/scrapy框架/footballdata/footballdata/middlewares.py" />
         <option value="$PROJECT_DIR$/scrapy框架/footballdata/footballdata/settings.py" />
         <option value="$PROJECT_DIR$/scrapy框架/footballdata/footballdata/spiders/chinasuper.py" />
         <option value="$PROJECT_DIR$/scrapy框架/scrapyseleniumtest/scrapyseleniumtest/settings.py" />
         <option value="$PROJECT_DIR$/scrapy框架/crawlPro/crawlPro/spiders/crawlTest.py" />
         <option value="$PROJECT_DIR$/scrapy框架/crawlPro/crawlPro/settings.py" />
-        <option value="$PROJECT_DIR$/scrapy框架/scrapyseleniumtest/scrapyseleniumtest/spiders/wangyi.py" />
         <option value="$PROJECT_DIR$/scrapy框架/scrapyseleniumtest/scrapyseleniumtest/middlewares.py" />
         <option value="$PROJECT_DIR$/footballdata/requestdata.py" />
         <option value="$PROJECT_DIR$/scrapy框架/footballnews/footballnews/items.py" />
-        <option value="$PROJECT_DIR$/scrapy框架/footballnews/footballnews/pipelines.py" />
         <option value="$PROJECT_DIR$/scrapy框架/footballnews/footballnews/settings.py" />
         <option value="$PROJECT_DIR$/scrapy框架/footballnews/footballnews/spiders/news.py" />
         <option value="$PROJECT_DIR$/wanplus/wanplus_spider.py" />
@@ -205,6 +211,36 @@
         <option value="$PROJECT_DIR$/ProxyPool/proxy_poll/storage.py" />
         <option value="$PROJECT_DIR$/ProxyPool/run.py" />
         <option value="$PROJECT_DIR$/ProxyPool/proxy_poll/getproxies.py" />
+        <option value="$PROJECT_DIR$/ProxyPool/requirements" />
+        <option value="$PROJECT_DIR$/scrapy框架/scrapyseleniumtest/scrapyseleniumtest/spiders/wangyi.py" />
+        <option value="$PROJECT_DIR$/scrapy框架/footballnews/footballnews/pipelines.py" />
+        <option value="$PROJECT_DIR$/scrapy框架/bossPro/bossPro/pipelines.py" />
+        <option value="$PROJECT_DIR$/douyin.py" />
+        <option value="$PROJECT_DIR$/mitmproxy_s/mitm.py" />
+        <option value="$PROJECT_DIR$/appium/toPhone.py" />
+        <option value="$PROJECT_DIR$/appium_test/toPhone.py" />
+        <option value="$PROJECT_DIR$/mitmproxy_s/url_log.log" />
+        <option value="$PROJECT_DIR$/mitmproxy_s/url_test.py" />
+        <option value="$PROJECT_DIR$/mitmproxy_s/update_script.py" />
+        <option value="$PROJECT_DIR$/mitmproxy_s/call_worker.py" />
+        <option value="$PROJECT_DIR$/test/test.py" />
+        <option value="$PROJECT_DIR$/test/time_test.py" />
+        <option value="$PROJECT_DIR$/mitmproxy_s/script.py" />
+        <option value="$PROJECT_DIR$/industry/tmp.py" />
+        <option value="$PROJECT_DIR$/industry/test.py" />
+        <option value="$PROJECT_DIR$/industry/spider_industry.py" />
+        <option value="$PROJECT_DIR$/xueqiu/test.py" />
+        <option value="$PROJECT_DIR$/xueqiu/get_information.py" />
+        <option value="$PROJECT_DIR$/xueqiu/get_info.py" />
+        <option value="$PROJECT_DIR$/jinritoutiao/info.py" />
+        <option value="$PROJECT_DIR$/english/Statistics.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/cookie/cookie.py" />
+        <option value="$PROJECT_DIR$/xueqiu/settings.py" />
+        <option value="$PROJECT_DIR$/cookie_save/cookie" />
+        <option value="$PROJECT_DIR$/cookie_save/cookie_test2.py" />
+        <option value="$PROJECT_DIR$/cookie_save/cookie_test.py" />
+        <option value="$PROJECT_DIR$/cookie_save/set_dup.py" />
       </list>
     </option>
   </component>
@@ -215,10 +251,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="520" />
-    <option name="y" value="59" />
+    <option name="x" value="454" />
+    <option name="y" value="34" />
     <option name="width" value="1158" />
-    <option name="height" value="803" />
+    <option name="height" value="695" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -236,7 +272,7 @@
             <path>
               <item name="SpiderProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpiderProject" type="462c0819:PsiDirectoryNode" />
-              <item name="ProxyPool" type="462c0819:PsiDirectoryNode" />
+              <item name="cookie_save" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -254,10 +290,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/xueqiu" />
       <recent name="$PROJECT_DIR$/梨视频" />
       <recent name="$PROJECT_DIR$/豆瓣自动登陆" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/english" />
       <recent name="$PROJECT_DIR$/ProxyPool" />
       <recent name="$PROJECT_DIR$/scrapy框架" />
       <recent name="$PROJECT_DIR$/scrapy框架/bossPro/bossPro/spiders" />
@@ -276,8 +314,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.run">
-    <configuration name="api" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.set_dup">
+    <configuration name="Statistics" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiderProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -285,12 +323,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/proxy_poll" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/english" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/proxy_poll/api.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/english/Statistics.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -299,7 +337,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="getter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="cookie_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiderProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -307,12 +345,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/proxy_poll" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cookie_save" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/proxy_poll/getter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cookie_save/cookie_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -321,7 +359,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="cookie_test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiderProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -329,12 +367,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProxyPool" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cookie_save" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProxyPool/run.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cookie_save/cookie_test2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -343,7 +381,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="scheduler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="set_dup" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiderProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -351,12 +389,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/proxy_poll" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cookie_save" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/proxy_poll/scheduler.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cookie_save/set_dup.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -365,7 +403,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tester" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpiderProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -373,12 +411,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/proxy_poll" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/proxy_poll/tester.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -388,24 +426,24 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.api" />
-      <item itemvalue="Python.getter" />
-      <item itemvalue="Python.tester" />
-      <item itemvalue="Python.scheduler" />
-      <item itemvalue="Python.run" />
+      <item itemvalue="Python.Statistics" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.cookie_test" />
+      <item itemvalue="Python.cookie_test2" />
+      <item itemvalue="Python.set_dup" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.run" />
-        <item itemvalue="Python.scheduler" />
-        <item itemvalue="Python.api" />
-        <item itemvalue="Python.tester" />
-        <item itemvalue="Python.getter" />
+        <item itemvalue="Python.set_dup" />
+        <item itemvalue="Python.cookie_test" />
+        <item itemvalue="Python.cookie_test2" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.Statistics" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration useDefault="false">$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -418,14 +456,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="520" y="59" width="1158" height="803" extended-state="0" />
+    <frame x="454" y="34" width="1158" height="695" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14336918" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49655172" visible="true" weight="0.19086021" />
+      <window_info id="Structure" order="1" sideWeight="0.50344825" side_tool="true" weight="0.16935484" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32721713" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2122093" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32586208" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27758622" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47247708" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -434,7 +473,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50089604" side_tool="true" weight="0.37209302" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49910393" weight="0.23982558" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49910393" weight="0.36724138" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -461,315 +500,304 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scrapy框架/scrapyseleniumtest/scrapyseleniumtest/pipelines.py">
+    <entry file="file://$PROJECT_DIR$/ProxyPool/proxy_poll/getter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy框架/bossPro/bossPro/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/re_test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy框架/footballdata/footballdata/pipelines.py" />
-    <entry file="file://$PROJECT_DIR$/scrapy框架/footballdata/footballdata/items.py" />
-    <entry file="file://$PROJECT_DIR$/scrapy框架/footballdata/footballdata/middlewares.py" />
-    <entry file="file://$PROJECT_DIR$/scrapy框架/footballdata/footballdata/spiders/chinasuper.py" />
-    <entry file="file://$PROJECT_DIR$/scrapy框架/footballdata/footballdata/settings.py" />
-    <entry file="file://$PROJECT_DIR$/scrapy框架/crawlPro/scrapy.cfg">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy框架/crawlTest.py" />
-    <entry file="file://$PROJECT_DIR$/scrapy框架/crawlPro/crawlPro/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy框架/crawlPro/crawlPro/spiders/crawlTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy框架/scrapyseleniumtest/scrapyseleniumtest/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="96" selection-start-line="96" selection-end-line="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy框架/scrapyseleniumtest/text.html" />
-    <entry file="file://$PROJECT_DIR$/footballdata/ghostdriver.log" />
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-1252464536/array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="151" column="8" selection-start-line="151" selection-start-column="8" selection-end-line="151" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy框架/day07/redisSpiderPro/redisSpiderPro/spiders/redisSpiderTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy框架/scrapyseleniumtest/scrapyseleniumtest/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="133" column="28" selection-start-line="133" selection-start-column="28" selection-end-line="133" selection-end-column="28" />
-          <folding>
-            <element signature="e#169#195#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/li_video/video_spider2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy框架/scrapyseleniumtest/scrapyseleniumtest/spiders/wangyi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy框架/bossPro/bossPro/spiders/bosses.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="55" column="47" lean-forward="true" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/pymongo/mongo_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy框架/footballnews/footballnews/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        <state relative-caret-position="315">
+          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy框架/footballnews/footballnews/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footballdata/requestdata.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/淘宝/spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy框架/footballnews/footballnews/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy框架/footballnews/footballnews/spiders/news.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wanplus/wanplus_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+        <state relative-caret-position="75">
+          <caret line="5" column="65" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy框架/bossPro/bossPro/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="108" column="42" lean-forward="true" selection-start-line="108" selection-start-column="42" selection-end-line="108" selection-end-column="42" />
+        <state relative-caret-position="1902">
+          <caret line="133" column="19" lean-forward="true" selection-start-line="133" selection-start-column="19" selection-end-line="133" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/aiohttp/helpers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/scrapy框架/bossPro/bossPro/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/aiohttp/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="247" lean-forward="true" selection-start-line="247" selection-end-line="247" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/站长素材/resume.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/aiohttp/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-82">
-          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/li_video/video_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_111.py" />
-    <entry file="file://$PROJECT_DIR$/scrapy框架/bossPro/bossPro/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-159">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/douyin.py" />
     <entry file="file://$PROJECT_DIR$/异步爬虫/异步发起请求.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xinlang/xinlang/xinlang/spiders/weibo.py">
+    <entry file="file://$PROJECT_DIR$/mitmproxy_s/mitm.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/env_spider3.6/lib/python3.6/site-packages/requests/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="42">
+          <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProxyPool/proxy_poll/error.py">
+    <entry file="file://$USER_HOME$/anaconda3/envs/env_spider3.6/lib/python3.6/importlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="107" column="4" selection-start-line="107" selection-start-column="4" selection-end-line="107" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mitmproxy_s/url_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appium_test/toPhone.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mitmproxy_s/url_log.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="293">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mitmproxy_s/call_worker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/time_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/industry/gouxin.html" />
+    <entry file="file://$PROJECT_DIR$/industry/cainiao.html" />
+    <entry file="file://$PROJECT_DIR$/industry/tmp.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/env_spider3.6/lib/python3.6/site-packages/pymysql/connections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="187" column="30" lean-forward="true" selection-start-line="187" selection-start-column="30" selection-end-line="187" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/industry/ghostdriver.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/env_spider3.6/lib/python3.6/site-packages/pymysql/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="93" column="19" lean-forward="true" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/industry/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="44" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mitmproxy_s/update_script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mitmproxy_s/script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xueqiu/test.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/proxy_poll/utils.py">
+    <entry file="file://$PROJECT_DIR$/淘宝/spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/li_video/video_selenium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-47">
+          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/li_video/video_spider2.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProxyPool/proxy_poll/test.py">
+    <entry file="file://$PROJECT_DIR$/industry/spider_industry.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-528">
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-137">
+          <caret line="4" selection-start-line="4" selection-end-line="20" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProxyPool/proxy_poll/api.py">
+    <entry file="file://$PROJECT_DIR$/jinritoutiao/info.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <marker date="1546068304153" expanded="true" signature="140:145" ph="..." />
-            <marker date="1546068304153" expanded="true" signature="255:260" ph="..." />
-            <marker date="1546068304153" expanded="true" signature="387:392" ph="..." />
-            <marker date="1546068304153" expanded="true" signature="475:480" ph="..." />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProxyPool/proxy_poll/tester.py">
+    <entry file="file://$USER_HOME$/anaconda3/envs/env_spider3.6/lib/python3.6/site-packages/lxml/html/_html5builder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-305">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="106">
+          <caret line="90" column="13" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProxyPool/proxy_poll/settings.py">
+    <entry file="file://$USER_HOME$/anaconda3/envs/env_spider3.6/lib/python3.6/site-packages/docx/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        <state relative-caret-position="132">
+          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProxyPool/proxy_poll/scheduler.py">
+    <entry file="file://$USER_HOME$/anaconda3/envs/env_spider3.6/lib/python3.6/site-packages/docx/table.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+        <state relative-caret-position="1575">
+          <caret line="235" column="8" selection-start-line="235" selection-start-column="8" selection-end-line="235" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/english/Statistics.py" />
+    <entry file="file://$PROJECT_DIR$/svn_learn/SVN/wsgi.py" />
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/xueqiu/get_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-            <marker date="1546068304184" expanded="true" signature="248:253" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProxyPool/proxy_poll/getter.py">
+    <entry file="file://$PROJECT_DIR$/xueqiu/get_information.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="-391">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/env_spider3.6/lib/python3.6/site-packages/requests/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="628" column="37" selection-start-line="628" selection-start-column="37" selection-end-line="628" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xueqiu/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/env_spider3.6/lib/python3.6/site-packages/requests/sessions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="536" column="8" selection-start-line="536" selection-start-column="8" selection-end-line="536" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookie_save/cookie">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/env_spider3.6/lib/python3.6/site-packages/browsercookie/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="71" column="35" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookie_save/cookie_test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/redis/client.py">
+    <entry file="file://$USER_HOME$/anaconda3/envs/env_spider3.6/lib/python3.6/http/cookiejar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="585" column="31" selection-start-line="585" selection-start-column="23" selection-end-line="585" selection-end-column="31" />
+        <state relative-caret-position="191">
+          <caret line="1235" lean-forward="true" selection-start-line="1235" selection-end-line="1235" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProxyPool/proxy_poll/storage.py">
+    <entry file="file://$USER_HOME$/anaconda3/envs/env_spider3.6/lib/python3.6/site-packages/cookies.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="21" column="58" lean-forward="true" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1258">
+          <caret line="680" column="6" selection-start-line="680" selection-start-column="6" selection-end-line="680" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProxyPool/ghostdriver.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProxyPool/proxy_poll/getproxies.py">
+    <entry file="file://$PROJECT_DIR$/doubanLogin/douban_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-345">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="270">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProxyPool/run.py">
+    <entry file="file://$USER_HOME$/anaconda3/envs/env_spider3.6/lib/python3.6/site-packages/requests/cookies.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="156">
+          <caret line="342" column="8" selection-start-line="342" selection-start-column="8" selection-end-line="342" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookie_save/cookie_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1546068348307" expanded="true" signature="156:161" ph="..." />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookie_save/set_dup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>

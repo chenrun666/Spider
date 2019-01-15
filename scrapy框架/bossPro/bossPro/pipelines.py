@@ -112,16 +112,10 @@ class MongoPipeline(object):
 
 
 class MongoPipeline1(object):
-    def __int__(self, mongo_uri, mongo_db):
+    def __int__(self, mongo_uri, mongo_db, mongo_port):
         self.mongo_uri = mongo_uri
         self.mongo_db = mongo_db
-
-    @classmethod
-    def from_crawler(cls, crawler):
-        return cls(
-            mongo_uri=crawler.settings.get("MONGO_URI"),
-            mongo_DB=crawler.settings.get("MONGO_DB")
-        )
+        self.mong_port = mongo_port
 
     def open_spider(self, spider):
         self.client = pymongo.MongoClient(self.mongo_uri)
@@ -134,3 +128,11 @@ class MongoPipeline1(object):
 
     def close_spider(self, spider):
         self.client.close()
+
+    @classmethod
+    def from_crawler(cls, crawler):
+        return cls(
+            mongo_uri=crawler.settings.get("MONGO_URI"),
+            mongo_port=crawler.settings.get("MONGO_PORT"),
+            mongo_db=crawler.settings.get("MONGO_DB"),
+        )

@@ -11,7 +11,7 @@ class WangyiSpider(scrapy.Spider):
     # start_urls = ['https://news.163.com/']
     start_urls = ["https://news.163.com/"]
 
-    def __init__(self):
+    def __init__(self, **kwargs):
         self.bro = webdriver.Chrome()
 
     def parse(self, response):
